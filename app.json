@@ -1,71 +1,27 @@
 {
-
-  "name": "Simpel WhatsApp Bot",
-
-  "description": "Thank you for using this script, don't forget to subscribe to my channel xZiyy",
-
-  "logo": "https://telegra.ph/file/c9a5ce748994affe50d4f.jpg",
-
-  "keywords": ["termux-whatsapp-bot",
-
-    "whatsapp-bot",
-
-    "whatsapp",
-
-    "js-whatsapp"],
-
+  "name": "whatsapp-bot",
+  "description": "whatsapp bot build with nodejs",
   "repository": "https://github.com/THUNDERluzer/SAINS-BOT-V1.0.0",
-
-  "website": "https://instagram/xziyy__",
-
-  "env": {
-
-    "NAME": {
-
-      "description": "Enter Your Name",
-
-      "required": false
-
-    },
-
+  "logo": "https://pbs.twimg.com/media/Erh9GtGXYAETLkU?format=jpg&name=900x900",
+  "keywords": ["termux-whatsapp-bot","whatsapp-bot","whatsapp","js-whatsapp"],
   "buildpacks": [
-
     {
-
       "url": "heroku/nodejs"
-
     },
-
     {
-
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-
     },
-
     {
-
       "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
-
     },
-
     {
-
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-
     }
-
   ],
-
    "formation": {
-
         "worker": {
-
             "quantity": 1,
-
             "size": "free"
-
         }
-
     }
-
 }
